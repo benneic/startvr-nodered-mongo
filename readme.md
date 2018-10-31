@@ -1,10 +1,11 @@
-Node Red + MongoDB Docker
+Node-Red + MongoDB in Docker
 
-Basic Usage:
+Quick Start:
 
-- Install docker & docker-compose (on windows use docker toolbox)
+- Install Docker using install for your OS
 - Clone this repo
 - Run `docker-compose up` in the repo root
+- Access node-red admin dashboard at http://127.0.0.1:1880/admin
 
 Default Configuration:
 
@@ -13,7 +14,6 @@ Default Configuration:
 - Files added to the public folder are served from the root directory /
 - Node Red Dashboard and MongoDB nodes are installed by default
 - The MongoDB server is available on port 27017
-
 
 Adding NPM Modules:
 
